@@ -1,21 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>  
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>  
-      <style type="text/tailwindcss">
-      @theme {
-        --container-width: 1240px;
-        --color-redis: #2a6928;
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <style type="text/tailwindcss">
+    @theme {
+        --container-width: 1240px; 
+        --color-beguni: #6345D5;
+        --font-UrbaBold: "Urba-Bold";
+      }
+      @font-face {
+        font-family:"Urba-Bold" ;
+        src: url("src/assets/font/Urbanist-Bold.ttf");
       }
     </style>
-       
+
 </head>
+
 <body>
-     <div class="main">
-      
-     </div>
+  <div class="main ">
+    <section class="w-width relative h-screen   mx-auto">
+      <nav class="flex justify-between items-center">
+        <div>
+          <img src="/src/assets/image/Group 1362.png" alt="">
+        </div>
+        <div class="">
+          <ul class="flex justify-center gap-20">
+            <li><a href="#" class="text-[#606D93] hover:text-[#192252] font-UrbaBold text-lg capitalize">Home</a></li>
+            <li><a href="#" class="text-[#606D93] hover:text-[#192252] font-UrbaBold text-lg capitalize">Product</a>
+            </li>
+            <li><a href="#" class="text-[#606D93] hover:text-[#192252] font-UrbaBold text-lg capitalize">Pricing</a>
+            </li>
+            <li><a href="#" class="text-[#606D93] hover:text-[#192252] font-UrbaBold text-lg capitalize">Testmony</a>
+            </li>
+          </ul>
+        </div>
+        <div class="py-[23px]">
+          <button
+            class="bg-beguni  px-10 py-3 rounded-md text-[#ffffff] font-UrbaBold text-lg capitalize cursor-pointer ">Sing
+            in</button>
+        </div>
+      </nav>
+      <!-- <div class="w-[539px] h-[539px] bg-[#6245D5] rounded-full absolute top-[-200px] right-[-200px] blur-[150px] "></div>
+         <div class="w-[548px] h-[548px] bg-[#FC8B5F] rounded-full absolute top-[200px] right-[100px] blur-[40px] "></div>
+         <div class="w-[349px] h-[349px] bg-[#6245D5] rounded-full absolute bottom-0 left-[-200px] blur-[100px] "></div> -->
+
+    </section>
+  </div>
 </body>
+
 </html>
